@@ -1,0 +1,12 @@
+{
+  "name": "quanttum-photo-inspector",
+  "version": "0.1.0",
+  "description": "Offline JPEG metadata and EXIF-thumbnail inspector (vanilla JS, no runtime dependencies)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "node tests/parser_tests.js && node tests/compare_tests.js && node tests/fuzz_test.js",
+    "crosscheck": "python3 tests/crosscheck.py",
+    "e2e": "node tests/e2e_test.js"
+  }
+}
